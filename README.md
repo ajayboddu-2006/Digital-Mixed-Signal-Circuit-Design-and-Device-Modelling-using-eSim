@@ -1,16 +1,16 @@
 # Digital-Mixed-Signal-Circuit-Design-and-Device-Modelling-using-eSim
 
 
-## 📌 About FOSSEE  
+## About FOSSEE  
 This repository is part of the **FOSSEE (Free/Libre and Open Source Software for Education)** initiative at **IIT Bombay**.  
 The FOSSEE project promotes the use of **open-source software in education and research** by developing resources, supporting open-source tools, and encouraging student contributions. It provides alternatives to proprietary tools, making advanced technology more accessible.  
 
 ---
 
-## 🖥 About eSim  
+## About eSim  
 [eSim](https://esim.fossee.in/) is an **open-source EDA tool** developed under the FOSSEE project. It is a combination of **KiCad** for schematic capture and **NgSpice** for simulation, designed to support both digital and analog circuit design.  
 
-### 🔧 Key Features of eSim  
+### Key Features of eSim  
 - Free and open-source alternative to commercial EDA tools.  
 - Supports **digital, analog, and mixed-signal circuit simulation**.  
 - Enables **device modeling** and custom component creation.  
@@ -19,7 +19,7 @@ The FOSSEE project promotes the use of **open-source software in education and r
 
 ---
 
-## 🏗 Internship Work  
+## Internship Work  
 As part of my internship under FOSSEE, I worked on **digital subcircuit design, mixed-signal circuit design, and device modeling**. The tasks involved designing circuits in Verilog and eSim, simulating them, validating their behavior, and documenting results.  
 
 ---

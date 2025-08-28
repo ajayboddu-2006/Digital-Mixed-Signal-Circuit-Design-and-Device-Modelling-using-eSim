@@ -70,10 +70,10 @@ Device modeling involves creating **mathematical and simulation models** for sem
 ## ✅ Circuits Implemented  
 Following circuits and models were implemented as part of this internship:  
 
-- **Digital Circuits**  
-  - Adders (Half Adder, Full Adder, Ripple Carry Adder)  
-  - Multiplexers  
-  - Counters  
+- **Digital SubCircuits**  
+  - SN74LVC4245A - Octal Bus Transceiver and 3.3V to 5V Level Shifter with 3-state outputs  
+  - SN74S64 - 4-2-3-2 Input AOI Gates
+  - SN74100 - 8-Bit Bistable Latches
   - Flip-Flops  
   - Sequential Circuits  
 

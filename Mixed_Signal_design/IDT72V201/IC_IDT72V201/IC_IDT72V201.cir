@@ -1,0 +1,64 @@
+* C:\Users\mamat\OneDrive\Documents\Final_project_files\Fossee_eSim_project_files\Mixed_Signal_design\IDT72V201\IC_IDT72V201\IC_IDT72V201.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/27/25 15:42:52
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U20  D7 D6 D5 D4 D3 D2 D1 D0 Net-_U18-Pad2_ Net-_U18-Pad3_ Net-_U18-Pad4_ Net-_U18-Pad5_ Net-_U18-Pad6_ Net-_U18-Pad7_ Net-_U18-Pad8_ Net-_U18-Pad9_ adc_bridge_8		
+U19  D8 Net-_U18-Pad1_ adc_bridge_1		
+U21  WCLK RCLK WEN1 WEN2 REN1 REN2 OE RS Net-_U18-Pad10_ Net-_U18-Pad11_ Net-_U18-Pad12_ Net-_U18-Pad13_ Net-_U18-Pad14_ Net-_U18-Pad15_ Net-_U18-Pad16_ Net-_U18-Pad17_ adc_bridge_8		
+U23  Net-_U18-Pad19_ Net-_U18-Pad20_ Net-_U18-Pad21_ Net-_U18-Pad22_ Net-_U18-Pad23_ Net-_U18-Pad24_ Net-_U18-Pad25_ Net-_U18-Pad26_ Q7 Q6 Q5 Q4 Q3 Q2 Q1 Q0 dac_bridge_8		
+U22  Net-_U18-Pad18_ Q8 dac_bridge_1		
+U24  Net-_U18-Pad27_ Net-_U18-Pad28_ Net-_U18-Pad29_ Net-_U18-Pad30_ EF FF PAE PAF dac_bridge_4		
+v1  D8 GND pulse		
+v5  D7 GND pulse		
+v9  D6 GND pulse		
+v13  D5 GND pulse		
+v17  D4 GND pulse		
+v2  D3 GND pulse		
+v6  D2 GND pulse		
+v10  D1 GND pulse		
+v14  D0 GND pulse		
+v3  WCLK GND pulse		
+v7  RCLK GND pulse		
+v11  WEN1 GND pulse		
+v15  WEN2 GND pulse		
+v4  REN1 GND pulse		
+v8  REN2 GND pulse		
+v12  OE GND pulse		
+v16  RS GND pulse		
+U27  Q6 plot_v1		
+U28  Q5 plot_v1		
+U29  Q4 plot_v1		
+U30  Q3 plot_v1		
+U31  Q2 plot_v1		
+U32  Q1 plot_v1		
+U33  Q0 plot_v1		
+U34  EF plot_v1		
+U35  FF plot_v1		
+U36  PAE plot_v1		
+U37  PAF plot_v1		
+U26  Q7 plot_v1		
+U25  Q8 plot_v1		
+U1  D8 plot_v1		
+U9  D6 plot_v1		
+U17  D4 plot_v1		
+U2  D3 plot_v1		
+U8  D2 plot_v1		
+U12  D1 plot_v1		
+U16  D0 plot_v1		
+U3  WCLK plot_v1		
+U6  RCLK plot_v1		
+U10  WEN1 plot_v1		
+U14  WEN2 plot_v1		
+U4  REN1 plot_v1		
+U7  REN2 plot_v1		
+U11  OE plot_v1		
+U15  RS plot_v1		
+U5  D7 plot_v1		
+U13  D5 plot_v1		
+U18  Net-_U18-Pad1_ Net-_U18-Pad2_ Net-_U18-Pad3_ Net-_U18-Pad4_ Net-_U18-Pad5_ Net-_U18-Pad6_ Net-_U18-Pad7_ Net-_U18-Pad8_ Net-_U18-Pad9_ Net-_U18-Pad10_ Net-_U18-Pad11_ Net-_U18-Pad12_ Net-_U18-Pad13_ Net-_U18-Pad14_ Net-_U18-Pad15_ Net-_U18-Pad16_ Net-_U18-Pad17_ Net-_U18-Pad18_ Net-_U18-Pad19_ Net-_U18-Pad20_ Net-_U18-Pad21_ Net-_U18-Pad22_ Net-_U18-Pad23_ Net-_U18-Pad24_ Net-_U18-Pad25_ Net-_U18-Pad26_ Net-_U18-Pad27_ Net-_U18-Pad28_ Net-_U18-Pad29_ Net-_U18-Pad30_ fifo		
+
+.end

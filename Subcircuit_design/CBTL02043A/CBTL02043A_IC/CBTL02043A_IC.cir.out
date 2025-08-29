@@ -1,0 +1,36 @@
+* c:\users\mamat\esim-workspace\cbtl02043a_ic\cbtl02043a_ic.cir
+
+.include CBTL02043A.sub
+x1 net-_x1-pad1_ xsd a0_p a0_n gnd net-_x1-pad1_ a1_p a1_n sel net-_x1-pad1_ gnd c1_n c1_p c0_n c0_p b1_n b1_p b0_n b0_p gnd CBTL02043A
+v1  xsd gnd pulse(0 5 0.01n 0.01n 0.01n 5000 10000)
+v2  a0_p gnd pulse(0 5 0.01n 0.01n 0.01n 750 1000)
+v3  a0_n gnd pulse(0 5 0.01n 0.01n 0.01n 600 1500)
+v4  a1_p gnd pulse(5 0 0.01n 0.01n 0.01n 500 1500)
+v5  a1_n gnd pulse(5 0 0.01n 0.01n 0.01n 700 2000)
+v6  sel gnd pulse(0 5 0.01n 0.01n 0.01n 2500 5000)
+v7  net-_x1-pad1_ gnd 5
+* u1  xsd plot_v1
+* u2  a0_p plot_v1
+* u6  a0_n plot_v1
+* u3  a1_p plot_v1
+* u4  a1_n plot_v1
+* u5  sel plot_v1
+* u9  b0_p plot_v1
+* u11  b0_n plot_v1
+* u14  b1_p plot_v1
+* u12  b1_n plot_v1
+* u7  c1_n plot_v1
+* u8  c1_p plot_v1
+* u10  c0_n plot_v1
+* u13  c0_p plot_v1
+.tran 100e-00 10000e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot v(c0_p) v(c0_n)+6 v(c1_p)+12 v(c1_n)+18 v(b0_p)+24 v(b0_n)+30 v(b1_p)+36 v(b1_n)+42 v(a0_p)+48 v(a0_n)+54 v(a1_p)+60 v(a1_n)+66 v(sel)+72 v(xsd)+78
+.endc
+.end

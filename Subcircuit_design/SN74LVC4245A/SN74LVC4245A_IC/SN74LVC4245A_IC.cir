@@ -1,0 +1,42 @@
+* C:\Users\mamat\eSim-Workspace\SN74LVC4245A_IC\SN74LVC4245A_IC.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/29/25 16:00:42
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v7  Net-_X1-Pad24_ GND DC		
+v6  Net-_X1-Pad1_ GND DC		
+v8  Net-_X1-Pad23_ GND DC		
+v9  B5 GND pulse		
+v10  B6 GND pulse		
+v11  B7 GND pulse		
+v12  B8 GND pulse		
+v2  A1 GND pulse		
+v3  A2 GND pulse		
+v4  A3 GND pulse		
+v5  A4 GND pulse		
+U10  B5 plot_v1		
+U11  B6 plot_v1		
+U12  B7 plot_v1		
+U13  B8 plot_v1		
+U14  B4 plot_v1		
+U16  B3 plot_v1		
+U17  B2 plot_v1		
+U18  B1 plot_v1		
+U5  A1 plot_v1		
+U6  A2 plot_v1		
+U7  A3 plot_v1		
+U8  A4 plot_v1		
+U9  A8 plot_v1		
+U3  A7 plot_v1		
+U2  A6 plot_v1		
+U1  A5 plot_v1		
+v1  DIR GND pulse		
+v13  OE_bar GND pulse		
+U4  DIR plot_v1		
+U15  OE_bar plot_v1		
+X1  Net-_X1-Pad1_ DIR A1 A2 A3 A4 A5 A6 A7 A8 GND GND GND B8 B7 B6 B5 B4 B3 B2 B1 OE_bar Net-_X1-Pad23_ Net-_X1-Pad24_ SN74LVC4245A		
+
+.end

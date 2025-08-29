@@ -1,0 +1,21 @@
+* c:\users\mamat\onedrive\desktop\ajay_esim\final_project_files\device_modelling\2n5401\bjt_ce_config\bjt_ce_config.cir
+
+.include 2N5401.lib
+v1 gnd vce  dc 0
+r1  net-_r1-pad1_ net-_q1-pad1_ 1k
+r2  net-_q1-pad2_ ib 1k
+* u_ic1  net-_r1-pad1_ vce plot_i2
+i1 gnd ib  dc 20m
+q1 net-_q1-pad1_ net-_q1-pad2_ gnd 2N5401
+v_u_ic1 net-_r1-pad1_ vce 0
+.dc v1 -10e-00 10e-00 0.05e-00 i1 0e-03 5e-03 1e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot i(v_u_ic1)
+.endc
+.end

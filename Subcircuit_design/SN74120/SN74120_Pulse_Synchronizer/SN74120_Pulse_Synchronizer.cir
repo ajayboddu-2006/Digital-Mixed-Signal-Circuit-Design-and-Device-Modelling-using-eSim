@@ -1,0 +1,28 @@
+* C:\Users\mamat\eSim-Workspace\SN74120_Pulse_Synchronizer\SN74120_Pulse_Synchronizer.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/03/25 15:21:48
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v4  C GND pulse		
+U7  Y_bar plot_v1		
+U6  Y plot_v1		
+U1  R_bar plot_v1		
+U2  S1_bar plot_v1		
+U3  S2_bar plot_v1		
+U4  C plot_v1		
+U5  M plot_v1		
+U8  R_bar S1_bar S2_bar C M Net-_U8-Pad6_ Net-_U8-Pad7_ Net-_U8-Pad8_ Net-_U8-Pad9_ Net-_U8-Pad10_ adc_bridge_5		
+U9  Net-_U9-Pad1_ Net-_U9-Pad2_ Y Y_bar dac_bridge_2		
+v5  M GND pulse		
+v3  S2_bar GND pulse		
+v1  R_bar GND pulse		
+v2  S1_bar GND pulse		
+X1  Net-_U8-Pad10_ Net-_U8-Pad7_ Net-_U8-Pad8_ Net-_U8-Pad6_ Net-_U8-Pad9_ Net-_U9-Pad1_ Net-_U9-Pad2_ Net-_U10-Pad2_ ? ? ? ? ? ? ? Net-_U11-Pad2_ SN74120		
+v6  Net-_U11-Pad1_ GND 5		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ adc_bridge_1		
+U10  GND Net-_U10-Pad2_ adc_bridge_1		
+
+.end

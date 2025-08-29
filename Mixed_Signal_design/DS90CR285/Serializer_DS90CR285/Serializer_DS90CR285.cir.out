@@ -1,0 +1,85 @@
+* c:\users\mamat\esim-workspace\serializer_ds90cr285\serializer_ds90cr285.cir
+
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ net-_u1-pad40_ net-_u1-pad41_ ds90cr285
+v15 net-_u4-pad4_ gnd  dc 0
+v16 net-_u4-pad5_ gnd  dc 5
+v17 net-_u4-pad6_ gnd  dc 5
+v18 net-_u4-pad7_ gnd  dc 0
+v19 net-_u5-pad1_ gnd  dc 0
+v20 net-_u5-pad2_ gnd  dc 5
+v21 net-_u5-pad3_ gnd  dc 0
+v22 net-_u5-pad4_ gnd  dc 5
+v23 net-_u5-pad5_ gnd  dc 5
+v24 net-_u5-pad6_ gnd  dc 0
+v13 net-_u5-pad7_ gnd  dc 0
+v14 ? gnd  dc 0
+v3 net-_u6-pad1_ gnd  dc 5
+v4 net-_u6-pad2_ gnd  dc 0
+v5 net-_u6-pad3_ gnd  dc 5
+v6 net-_u6-pad4_ gnd  dc 5
+v7 net-_u6-pad5_ gnd  dc 0
+v8 net-_u6-pad6_ gnd  dc 5
+v9 net-_u6-pad7_ gnd  dc 5
+v10 net-_u6-pad8_ gnd  dc 0
+v11 net-_u7-pad1_ gnd  dc 0
+v12 net-_u7-pad2_ gnd  dc 5
+v1 net-_u7-pad3_ gnd  dc 0
+v2 net-_u7-pad4_ gnd  dc 5
+v28 net-_u7-pad6_ gnd  dc 5
+v27 net-_u7-pad5_ gnd  dc 5`
+v25  reset gnd pulse(0 5 0.01n 0.01n 0.01n 50u 1m)
+v26  clk_in_7x gnd pulse(5 0 0.01n 0.01n 0.01n 10u 20u)
+v31  clk_in gnd pulse(0 5 0.01n 0.01n 0.01n 70u 140u)
+* u5  net-_u5-pad1_ net-_u5-pad2_ net-_u5-pad3_ net-_u5-pad4_ net-_u5-pad5_ net-_u5-pad6_ net-_u5-pad7_ ? net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ adc_bridge_8
+* u6  net-_u6-pad1_ net-_u6-pad2_ net-_u6-pad3_ net-_u6-pad4_ net-_u6-pad5_ net-_u6-pad6_ net-_u6-pad7_ net-_u6-pad8_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ adc_bridge_8
+* u7  net-_u7-pad1_ net-_u7-pad2_ net-_u7-pad3_ net-_u7-pad4_ net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ adc_bridge_8
+* u4  clk_in clk_in_7x reset net-_u4-pad4_ net-_u4-pad5_ net-_u4-pad6_ net-_u4-pad7_ net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ adc_bridge_7
+* u10  net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ lvds_data_p3 lvds_data_p2 lvds_data_p1 lvds_data_p0 lvds_data_n3 lvds_data_n2 lvds_data_n1 lvds_data_n0 dac_bridge_8
+* u9  net-_u1-pad40_ net-_u1-pad41_ clk_out_p0 clk_out_n0 dac_bridge_2
+v30 net-_u7-pad8_ gnd  dc 5
+v29 net-_u7-pad7_ gnd  dc 0
+* u2  reset plot_v1
+* u3  clk_in_7x plot_v1
+* u8  clk_in plot_v1
+* u18  lvds_data_p3 plot_v1
+* u11  lvds_data_p2 plot_v1
+* u12  lvds_data_p1 plot_v1
+* u13  lvds_data_p0 plot_v1
+* u15  lvds_data_n3 plot_v1
+* u16  lvds_data_n2 plot_v1
+* u14  lvds_data_n1 plot_v1
+* u17  lvds_data_n0 plot_v1
+* u19  clk_out_p0 plot_v1
+* u20  clk_out_n0 plot_v1
+a1 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ ] [net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ ] [net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ ] [net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ ] [net-_u1-pad40_ ] [net-_u1-pad41_ ] u1
+a2 [net-_u5-pad1_ net-_u5-pad2_ net-_u5-pad3_ net-_u5-pad4_ net-_u5-pad5_ net-_u5-pad6_ net-_u5-pad7_ ? ] [net-_u1-pad8_ net-_u1-pad9_ net-_u1-pad10_ net-_u1-pad11_ net-_u1-pad12_ net-_u1-pad13_ net-_u1-pad14_ net-_u1-pad15_ ] u5
+a3 [net-_u6-pad1_ net-_u6-pad2_ net-_u6-pad3_ net-_u6-pad4_ net-_u6-pad5_ net-_u6-pad6_ net-_u6-pad7_ net-_u6-pad8_ ] [net-_u1-pad16_ net-_u1-pad17_ net-_u1-pad18_ net-_u1-pad19_ net-_u1-pad20_ net-_u1-pad21_ net-_u1-pad22_ net-_u1-pad23_ ] u6
+a4 [net-_u7-pad1_ net-_u7-pad2_ net-_u7-pad3_ net-_u7-pad4_ net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ ] [net-_u1-pad24_ net-_u1-pad25_ net-_u1-pad26_ net-_u1-pad27_ net-_u1-pad28_ net-_u1-pad29_ net-_u1-pad30_ net-_u1-pad31_ ] u7
+a5 [clk_in clk_in_7x reset net-_u4-pad4_ net-_u4-pad5_ net-_u4-pad6_ net-_u4-pad7_ ] [net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ net-_u1-pad6_ net-_u1-pad7_ ] u4
+a6 [net-_u1-pad32_ net-_u1-pad33_ net-_u1-pad34_ net-_u1-pad35_ net-_u1-pad36_ net-_u1-pad37_ net-_u1-pad38_ net-_u1-pad39_ ] [lvds_data_p3 lvds_data_p2 lvds_data_p1 lvds_data_p0 lvds_data_n3 lvds_data_n2 lvds_data_n1 lvds_data_n0 ] u10
+a7 [net-_u1-pad40_ net-_u1-pad41_ ] [clk_out_p0 clk_out_n0 ] u9
+* Schematic Name:                             ds90cr285, NgSpice Name: ds90cr285
+.model u1 ds90cr285(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u6 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_8, NgSpice Name: adc_bridge
+.model u7 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_7, NgSpice Name: adc_bridge
+.model u4 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u10 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u9 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 10e-06 1e-03 0e-06
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot v(lvds_data_n0) v(lvds_data_n1)+6 v(lvds_data_n2)+12 v(lvds_data_n3)+18 v(lvds_data_p0)+24 v(lvds_data_p1)+30 v(lvds_data_p2)+36 v(lvds_data_p3)+42 v(clk_out_n0)+48 v(clk_out_p0)+54 v(clk_in_7x)+60 v(clk_in)+66 v(reset)+72
+.endc
+.end

@@ -1,0 +1,23 @@
+* C:\Users\mamat\OneDrive\Documents\Final_project_files\Device_Modelling\LS5907\FET_Amplifier\FET_Amplifier.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/14/25 22:37:20
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+C1  Net-_C1-Pad1_ in 1u		
+C6  Net-_C6-Pad1_ GND 100u		
+v2  Net-_R3-Pad1_ GND 12		
+R3  Net-_R3-Pad1_ Net-_C2-Pad2_ 6.8k		
+R4  GND Net-_C6-Pad1_ 2.2k		
+v1  in GND sine		
+U1  in plot_v1		
+U2  out plot_v1		
+J1  Net-_C2-Pad2_ Net-_C1-Pad1_ Net-_C6-Pad1_ eSim_NJF		
+C2  out Net-_C2-Pad2_ 0.5u		
+R1  out GND 10k		
+R2  GND Net-_C1-Pad1_ 3.3Meg		
+R5  Net-_R3-Pad1_ Net-_C1-Pad1_ 6.8Meg		
+
+.end

@@ -1,0 +1,46 @@
+* c:\users\mamat\esim-workspace\sn74lvc4245a_ic\sn74lvc4245a_ic.cir
+
+.include SN74LVC4245A.sub
+v7 net-_x1-pad24_ gnd  dc 5
+v6 net-_x1-pad1_ gnd  dc 5
+v8 net-_x1-pad23_ gnd  dc 3.3
+v9  b5 gnd pulse(0 5 0.01n 0.01n 0.01n 500m 1)
+v10  b6 gnd pulse(0 5 0.01n 0.01n 0.01n 800m 1)
+v11  b7 gnd pulse(0 5 0.01n 0.01n 0.01n 300m 1.2)
+v12  b8 gnd pulse(0 5 0.01n 0.01n 0.01n 600m 1.5)
+v2  a1 gnd pulse(0 5 0.01n 0.01n 0.01n 300m 1)
+v3  a2 gnd pulse(0 5 0.01n 0.01n 0.01n 1.2 1.5)
+v4  a3 gnd pulse(0 5 0.01n 0.01n 0.01n 500m 700m)
+v5  a4 gnd pulse(0 5 0.01n 0.01n 0.01n 800m 1.5)
+* u10  b5 plot_v1
+* u11  b6 plot_v1
+* u12  b7 plot_v1
+* u13  b8 plot_v1
+* u14  b4 plot_v1
+* u16  b3 plot_v1
+* u17  b2 plot_v1
+* u18  b1 plot_v1
+* u5  a1 plot_v1
+* u6  a2 plot_v1
+* u7  a3 plot_v1
+* u8  a4 plot_v1
+* u9  a8 plot_v1
+* u3  a7 plot_v1
+* u2  a6 plot_v1
+* u1  a5 plot_v1
+v1  dir gnd pulse(0 5 0.01n 0.01n 0.01n 2.5 5)
+v13  oe_bar gnd pulse(0 5 0.01n 0.01n 0.01n 1 5)
+* u4  dir plot_v1
+* u15  oe_bar plot_v1
+x1 net-_x1-pad1_ dir a1 a2 a3 a4 a5 a6 a7 a8 gnd gnd gnd b8 b7 b6 b5 b4 b3 b2 b1 oe_bar net-_x1-pad23_ net-_x1-pad24_ SN74LVC4245A
+.tran 0.4e-00 12e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot v(b8) v(b7)+6 v(b6)+12 v(b5)+18 v(b4)+24 v(b3)+30 v(b2)+36 v(b1)+42 v(a8)+48 v(a7)+54 v(a6)+60 v(a5)+66 v(a4)+72 v(a3)+78 v(a2)+84 v(a1)+90 v(dir)+96 v(oe_bar)+102
+.endc
+.end

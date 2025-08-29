@@ -1,0 +1,28 @@
+* c:\users\mamat\esim-workspace\2n3055_npn_bjt_amplifier\2n3055_npn_bjt_amplifier.cir
+
+.include 2N3055.lib
+* u1  in plot_v1
+* u2  out plot_v1
+v2  in gnd sine(0 10m 1k 0 0)
+q1 net-_c3-pad1_ net-_c1-pad1_ net-_c2-pad1_ 2N3055
+v1 net-_r2-pad2_ gnd  dc 12
+r5  net-_c3-pad1_ net-_r2-pad2_ 2k
+r4  gnd net-_c2-pad1_ 1.5k
+r2  net-_c1-pad1_ net-_r2-pad2_ 200k
+r3  gnd net-_c1-pad1_ 50k
+r1  in net-_c1-pad2_ 50
+c2  net-_c2-pad1_ gnd 100u
+c3  net-_c3-pad1_ out 40u
+c1  net-_c1-pad1_ net-_c1-pad2_ 40u
+r6  out gnd 1k
+.tran 10e-06 10e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot v(in) v(out)
+.endc
+.end

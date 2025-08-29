@@ -1,0 +1,21 @@
+* c:\users\mamat\esim-workspace\bjt_ce_config_input_char_ztx1048a\bjt_ce_config_input_char_ztx1048a.cir
+
+.include 2N3055.lib
+* u_ic1  ib net-_r1-pad1_ plot_i2
+q1 net-_q1-pad1_ net-_q1-pad2_ gnd 2N3055
+v2 ib gnd  dc 12
+r2  vce net-_q1-pad1_ 1k
+r1  net-_r1-pad1_ net-_q1-pad2_ 1k
+v1 vce gnd  dc 12
+v_u_ic1 ib net-_r1-pad1_ 0
+.dc v2 0e-00 10e-00 0.05e-00 v1 0e-00 60e-00 20e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot i(v_u_ic1)
+.endc
+.end

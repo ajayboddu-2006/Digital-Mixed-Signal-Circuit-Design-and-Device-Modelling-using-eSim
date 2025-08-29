@@ -1,0 +1,59 @@
+* C:\Users\mamat\eSim-Workspace\Deserializer_DS90CR286\Deserializer_DS90CR286.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/07/25 12:03:47
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U7  Net-_U7-Pad1_ Net-_U7-Pad2_ ? Net-_U7-Pad4_ Net-_U7-Pad5_ Net-_U7-Pad6_ Net-_U7-Pad7_ Net-_U7-Pad8_ ? ? ? ? Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ Net-_U11-Pad4_ Net-_U11-Pad5_ Net-_U11-Pad6_ Net-_U11-Pad7_ Net-_U11-Pad8_ Net-_U12-Pad1_ Net-_U12-Pad2_ Net-_U12-Pad3_ Net-_U12-Pad4_ Net-_U12-Pad5_ Net-_U12-Pad6_ Net-_U12-Pad7_ Net-_U12-Pad8_ Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ Net-_U13-Pad5_ ds90cr286		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ out27 out26 out25 out24 out23 out22 out21 out20 dac_bridge_8		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ Net-_U11-Pad4_ Net-_U11-Pad5_ Net-_U11-Pad6_ Net-_U11-Pad7_ Net-_U11-Pad8_ out19 out18 out17 out16 out15 out14 out13 out12 dac_bridge_8		
+U12  Net-_U12-Pad1_ Net-_U12-Pad2_ Net-_U12-Pad3_ Net-_U12-Pad4_ Net-_U12-Pad5_ Net-_U12-Pad6_ Net-_U12-Pad7_ Net-_U12-Pad8_ out11 out10 out9 out8 out7 out6 out5 out4 dac_bridge_8		
+U13  Net-_U13-Pad1_ Net-_U13-Pad2_ Net-_U13-Pad3_ Net-_U13-Pad4_ Net-_U13-Pad5_ out3 out2 out1 out0 clk_out dac_bridge_5		
+U16  out23 plot_v1		
+U22  out22 plot_v1		
+U31  out21 plot_v1		
+U38  out20 plot_v1		
+U17  out19 plot_v1		
+U24  out18 plot_v1		
+U30  out17 plot_v1		
+U37  out16 plot_v1		
+U18  out15 plot_v1		
+U25  out14 plot_v1		
+U34  out13 plot_v1		
+U41  out12 plot_v1		
+U19  out11 plot_v1		
+U27  out10 plot_v1		
+U32  out9 plot_v1		
+U39  out8 plot_v1		
+U20  out7 plot_v1		
+U26  out6 plot_v1		
+U35  out5 plot_v1		
+U42  out4 plot_v1		
+U21  out2 plot_v1		
+U28  out1 plot_v1		
+U33  out0 plot_v1		
+U40  clk_out plot_v1		
+U14  out3 plot_v1		
+U15  out27 plot_v1		
+U23  out26 plot_v1		
+U29  out25 plot_v1		
+U36  out24 plot_v1		
+v2  clk_in GND pulse		
+v4  clk_lvds_p GND pulse		
+v6  rst GND pulse		
+v1  d3 GND pulse		
+v3  d2 GND pulse		
+v5  d1 GND pulse		
+v7  d0 GND pulse		
+U9  clk_in clk_lvds_p rst d3 d2 d1 d0 Net-_U7-Pad1_ Net-_U7-Pad2_ Net-_U7-Pad4_ Net-_U7-Pad5_ Net-_U7-Pad6_ Net-_U7-Pad7_ Net-_U7-Pad8_ adc_bridge_7		
+U2  clk_in plot_v1		
+U1  d3 plot_v1		
+U3  d2 plot_v1		
+U5  d1 plot_v1		
+U8  d0 plot_v1		
+U4  clk_lvds_p plot_v1		
+U6  rst plot_v1		
+
+.end

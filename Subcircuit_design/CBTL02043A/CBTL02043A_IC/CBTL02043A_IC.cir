@@ -1,0 +1,32 @@
+* C:\Users\mamat\eSim-Workspace\CBTL02043A_IC\CBTL02043A_IC.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/10/25 10:34:44
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_X1-Pad1_ XSD A0_P A0_N GND Net-_X1-Pad1_ A1_P A1_N SEL Net-_X1-Pad1_ GND C1_N C1_P C0_N C0_P B1_N B1_P B0_N B0_P GND CBTL02043A		
+v1  XSD GND pulse		
+v2  A0_P GND pulse		
+v3  A0_N GND pulse		
+v4  A1_P GND pulse		
+v5  A1_N GND pulse		
+v6  SEL GND pulse		
+v7  Net-_X1-Pad1_ GND 5		
+U1  XSD plot_v1		
+U2  A0_P plot_v1		
+U6  A0_N plot_v1		
+U3  A1_P plot_v1		
+U4  A1_N plot_v1		
+U5  SEL plot_v1		
+U9  B0_P plot_v1		
+U11  B0_N plot_v1		
+U14  B1_P plot_v1		
+U12  B1_N plot_v1		
+U7  C1_N plot_v1		
+U8  C1_P plot_v1		
+U10  C0_N plot_v1		
+U13  C0_P plot_v1		
+
+.end

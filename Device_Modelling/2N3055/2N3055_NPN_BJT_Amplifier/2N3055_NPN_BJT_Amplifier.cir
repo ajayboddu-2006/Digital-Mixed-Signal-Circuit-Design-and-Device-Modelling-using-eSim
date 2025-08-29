@@ -1,0 +1,24 @@
+* C:\Users\mamat\eSim-Workspace\2N3055_NPN_BJT_Amplifier\2N3055_NPN_BJT_Amplifier.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/16/25 18:33:46
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  in plot_v1		
+U2  out plot_v1		
+v2  in GND sine		
+Q1  Net-_C3-Pad1_ Net-_C1-Pad1_ Net-_C2-Pad1_ eSim_NPN		
+v1  Net-_R2-Pad2_ GND DC		
+R5  Net-_C3-Pad1_ Net-_R2-Pad2_ 2k		
+R4  GND Net-_C2-Pad1_ 1.5k		
+R2  Net-_C1-Pad1_ Net-_R2-Pad2_ 200k		
+R3  GND Net-_C1-Pad1_ 50k		
+R1  in Net-_C1-Pad2_ 50		
+C2  Net-_C2-Pad1_ GND 100u		
+C3  Net-_C3-Pad1_ out 40u		
+C1  Net-_C1-Pad1_ Net-_C1-Pad2_ 40u		
+R6  out GND 1k		
+
+.end

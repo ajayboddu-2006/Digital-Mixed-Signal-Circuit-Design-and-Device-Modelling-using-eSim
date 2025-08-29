@@ -1,0 +1,39 @@
+* c:\users\mamat\esim-workspace\aoi_sn74s64\aoi_sn74s64.cir
+
+.include SN74S64.sub
+v3  f gnd pulse(0 5 0.001n 0.001n 0.001n 2 4)
+v4  g gnd pulse(0 5 0.001n 0.001n 0.001n 4 8)
+v5  h gnd pulse(0 5 0.001n 0.001n 0.001n 8 16)
+v2  e gnd pulse(0 5 0.001n 0.001n 0.001n 16 32)
+v1  a gnd pulse(0 5 0.001n 0.001n 0.001n 5 10)
+v6  i gnd pulse(0 5 0.001n 0.001n 0.001n 10 20)
+v9  c gnd pulse(0 5 0.001n 0.001n 0.001n 15 30)
+v10  b gnd pulse(0 5 0.001n 0.001n 0.001n 10 30)
+v11  k gnd pulse(0 5 0.001n 0.001n 0.001n 5 15)
+v12  j gnd pulse(0 5 0.001n 0.001n 0.001n 20 30)
+v8  d gnd pulse(0 5 0.001n 0.001n 0.001n 4 10)
+* u8  d plot_v1
+* u9  c plot_v1
+* u10  b plot_v1
+* u11  k plot_v1
+* u12  j plot_v1
+* u6  i plot_v1
+* u1  h plot_v1
+* u4  g plot_v1
+* u3  f plot_v1
+* u2  e plot_v1
+* u5  a plot_v1
+* u7  y plot_v1
+x1 a e f g h i gnd y j k b c d net-_x1-pad14_ SN74S64
+v7  net-_x1-pad14_ gnd 5
+.tran 50e-03 20e-00 5e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth =  3
+plot v(k)+66 v(j)+60 v(i)+54 v(h)+48 v(g)+42 v(f)+36 v(e)+30 v(d)+24 v(c)+18 v(b)+12 v(a)+6 v(y)
+.endc
+.end

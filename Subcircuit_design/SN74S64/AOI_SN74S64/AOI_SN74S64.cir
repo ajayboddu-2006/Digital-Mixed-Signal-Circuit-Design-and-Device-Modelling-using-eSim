@@ -1,0 +1,35 @@
+* C:\Users\mamat\eSim-Workspace\AOI_SN74S64\AOI_SN74S64.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/26/25 14:58:50
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v3  F GND pulse		
+v4  G GND pulse		
+v5  H GND pulse		
+v2  E GND pulse		
+v1  A GND pulse		
+v6  I GND pulse		
+v9  C GND pulse		
+v10  B GND pulse		
+v11  K GND pulse		
+v12  J GND pulse		
+v8  D GND pulse		
+U8  D plot_v1		
+U9  C plot_v1		
+U10  B plot_v1		
+U11  K plot_v1		
+U12  J plot_v1		
+U6  I plot_v1		
+U1  H plot_v1		
+U4  G plot_v1		
+U3  F plot_v1		
+U2  E plot_v1		
+U5  A plot_v1		
+U7  Y plot_v1		
+X1  A E F G H I GND Y J K B C D Net-_X1-Pad14_ SN74S64		
+v7  Net-_X1-Pad14_ GND 5		
+
+.end

@@ -1,0 +1,16 @@
+* C:\Users\mamat\OneDrive\Desktop\Ajay_eSim\Final_project_files\Device_Modelling\2N5401\BJT_CE_config\BJT_CE_config.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/13/25 19:23:46
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  GND vce DC		
+R1  Net-_R1-Pad1_ Net-_Q1-Pad1_ 1k		
+R2  Net-_Q1-Pad2_ ib 1k		
+U_ic1  Net-_R1-Pad1_ vce plot_i2		
+I1  GND ib dc		
+Q1  Net-_Q1-Pad1_ Net-_Q1-Pad2_ GND eSim_PNP		
+
+.end

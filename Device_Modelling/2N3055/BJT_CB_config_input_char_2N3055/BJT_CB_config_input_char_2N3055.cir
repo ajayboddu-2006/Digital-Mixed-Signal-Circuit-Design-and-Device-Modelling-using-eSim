@@ -1,0 +1,16 @@
+* C:\Users\mamat\eSim-Workspace\BJT_CB_config\BJT_CB_config.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/13/25 11:10:45
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  vcb GND DC		
+R1  vcb Net-_Q1-Pad1_ 1k		
+R2  Net-_Q1-Pad3_ Net-_R2-Pad2_ 1k		
+U_ic1  Net-_R2-Pad2_ ie plot_i2		
+Q1  Net-_Q1-Pad1_ GND Net-_Q1-Pad3_ eSim_NPN		
+v2  GND ie DC		
+
+.end

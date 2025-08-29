@@ -1,0 +1,21 @@
+* c:\users\mamat\onedrive\documents\final_project_files\device_modelling\2n5401\bjt_cb_config_input_char_2n5401\bjt_cb_config_input_char_2n5401.cir
+
+.include 2N5401.lib
+v1 gnd vcb  dc 12
+r1  vcb net-_q1-pad1_ 1k
+r2  net-_q1-pad3_ net-_r2-pad2_ 1k
+* u_ic1  ie net-_r2-pad2_ plot_i2
+v2 ie gnd  dc 12
+q1 net-_q1-pad1_ gnd net-_q1-pad3_ 2N5401
+v_u_ic1 ie net-_r2-pad2_ 0
+.dc v2 0e-00 10e-00 0.05e-00 v1 0e-03 5e-03 1e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot i(v_u_ic1)
+.endc
+.end

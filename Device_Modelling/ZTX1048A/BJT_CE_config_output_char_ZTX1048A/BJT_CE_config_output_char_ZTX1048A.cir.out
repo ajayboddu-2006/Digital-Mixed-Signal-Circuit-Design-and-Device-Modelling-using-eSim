@@ -1,0 +1,20 @@
+* c:\users\mamat\esim-workspace\bjt_ce_config\bjt_ce_config.cir
+
+.include ZTX1048A.lib
+v1 vce gnd  dc 12
+r1  net-_r1-pad1_ net-_q1-pad1_ 1k
+r2  net-_q1-pad2_ ib 1k
+* u_ic1  vce net-_r1-pad1_ plot_i2
+i1 ib gnd  dc 20m
+q1 net-_q1-pad1_ net-_q1-pad2_ gnd ZTX1048A
+v_u_ic1 vce net-_r1-pad1_ 0
+.dc v1 0e-00 10e-00 0.005e-00 i1 0e-06 80e-06 10e-06
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot i(v_u_ic1)
+.endc
+.end

@@ -1,0 +1,19 @@
+* c:\users\mamat\onedrive\documents\final_project_files\device_modelling\pmeg2005eb\diode_char_pmeg2005eb\diode_char_pmeg2005eb.cir
+
+.include PMEG2005EB.lib
+* u1  out net-_r1-pad1_ plot_i2
+d1 out in PMEG2005EB
+v1 in gnd  dc 5
+r1  net-_r1-pad1_ gnd 1k
+v_u1 out net-_r1-pad1_ 0
+.dc v1 -1e-00 1e-00 0.01e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot i(v_u1)
+.endc
+.end

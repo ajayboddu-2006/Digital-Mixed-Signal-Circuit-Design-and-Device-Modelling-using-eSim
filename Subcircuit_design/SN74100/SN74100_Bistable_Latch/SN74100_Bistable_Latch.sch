@@ -1,0 +1,294 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:power
+LIBS:eSim_Plot
+LIBS:transistors
+LIBS:conn
+LIBS:eSim_User
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:eSim_Analog
+LIBS:eSim_Devices
+LIBS:eSim_Digital
+LIBS:eSim_Hybrid
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Power
+LIBS:eSim_Sources
+LIBS:eSim_Subckt
+LIBS:eSim_Nghdl
+LIBS:eSim_Ngveri
+LIBS:eSim_SKY130
+LIBS:eSim_SKY130_Subckts
+LIBS:SN74100_Bistable_Latch-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dac_bridge_1 U4
+U 1 1 683469A5
+P 8400 3850
+F 0 "U4" H 8400 3850 60  0000 C CNN
+F 1 "dac_bridge_1" H 8400 4000 60  0000 C CNN
+F 2 "" H 8400 3850 60  0000 C CNN
+F 3 "" H 8400 3850 60  0000 C CNN
+	1    8400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L adc_bridge_2 U3
+U 1 1 683469DA
+P 5200 3750
+F 0 "U3" H 5200 3750 60  0000 C CNN
+F 1 "adc_bridge_2" H 5200 3900 60  0000 C CNN
+F 2 "" H 5200 3750 60  0000 C CNN
+F 3 "" H 5200 3750 60  0000 C CNN
+	1    5200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pulse v1
+U 1 1 68346A38
+P 3300 4150
+F 0 "v1" H 3100 4250 60  0000 C CNN
+F 1 "pulse" H 3100 4100 60  0000 C CNN
+F 2 "R1" H 3000 4150 60  0000 C CNN
+F 3 "" H 3300 4150 60  0000 C CNN
+	1    3300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pulse v2
+U 1 1 68346A97
+P 3900 4250
+F 0 "v2" H 3700 4350 60  0000 C CNN
+F 1 "pulse" H 3700 4200 60  0000 C CNN
+F 2 "R1" H 3600 4250 60  0000 C CNN
+F 3 "" H 3900 4250 60  0000 C CNN
+	1    3900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 68346AC4
+P 3900 4800
+F 0 "#PWR01" H 3900 4550 50  0001 C CNN
+F 1 "GND" H 3900 4650 50  0000 C CNN
+F 2 "" H 3900 4800 50  0001 C CNN
+F 3 "" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 68346AE2
+P 3300 4750
+F 0 "#PWR02" H 3300 4500 50  0001 C CNN
+F 1 "GND" H 3300 4600 50  0000 C CNN
+F 2 "" H 3300 4750 50  0001 C CNN
+F 3 "" H 3300 4750 50  0001 C CNN
+	1    3300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L plot_v1 U1
+U 1 1 68346B00
+P 3500 3450
+F 0 "U1" H 3500 3950 60  0000 C CNN
+F 1 "plot_v1" H 3700 3800 60  0000 C CNN
+F 2 "" H 3500 3450 60  0000 C CNN
+F 3 "" H 3500 3450 60  0000 C CNN
+	1    3500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L plot_v1 U2
+U 1 1 68346B5D
+P 4050 3450
+F 0 "U2" H 4050 3950 60  0000 C CNN
+F 1 "plot_v1" H 4250 3800 60  0000 C CNN
+F 2 "" H 4050 3450 60  0000 C CNN
+F 3 "" H 4050 3450 60  0000 C CNN
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L plot_v1 U5
+U 1 1 68346B8E
+P 9600 3900
+F 0 "U5" H 9600 4400 60  0000 C CNN
+F 1 "plot_v1" H 9800 4250 60  0000 C CNN
+F 2 "" H 9600 3900 60  0000 C CNN
+F 3 "" H 9600 3900 60  0000 C CNN
+	1    9600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3800 9600 3800
+Wire Wire Line
+	9600 3800 9600 3700
+Wire Wire Line
+	3900 3800 4600 3800
+Wire Wire Line
+	4600 3700 3300 3700
+Wire Wire Line
+	3300 4600 3300 4750
+Wire Wire Line
+	3900 4700 3900 4800
+Wire Wire Line
+	4050 3250 4050 3800
+Connection ~ 4050 3800
+Wire Wire Line
+	3500 3250 3500 3700
+Connection ~ 3500 3700
+Text GLabel 3350 3450 0    60   Input ~ 0
+EN
+Text GLabel 3900 3550 0    60   Input ~ 0
+D
+Text GLabel 9350 3550 0    60   Output ~ 0
+OUT
+Wire Wire Line
+	9350 3550 9450 3550
+Wire Wire Line
+	9450 3550 9450 3800
+Connection ~ 9450 3800
+Wire Wire Line
+	3900 3550 3950 3550
+Wire Wire Line
+	3950 3550 3950 3700
+Connection ~ 3950 3700
+Wire Wire Line
+	3350 3450 3350 3750
+Wire Wire Line
+	3350 3750 3950 3750
+Wire Wire Line
+	3950 3750 3950 3800
+Connection ~ 3950 3800
+$Comp
+L SN74100 X1
+U 1 1 683D457F
+P 7100 3950
+F 0 "X1" H 6850 4000 60  0000 C CNN
+F 1 "SN74100" H 6850 4850 60  0000 C CNN
+F 2 "" H 6850 4850 60  0001 C CNN
+F 3 "" H 6850 4850 60  0001 C CNN
+	1    7100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3800 7350 3800
+Wire Wire Line
+	5750 3700 6050 3700
+Wire Wire Line
+	6050 3700 6050 2900
+Wire Wire Line
+	6050 2900 7900 2900
+Wire Wire Line
+	7900 2900 7900 3650
+Wire Wire Line
+	7900 3650 7350 3650
+Wire Wire Line
+	5750 3800 6150 3800
+Wire Wire Line
+	6150 3800 6150 3000
+Wire Wire Line
+	6150 3000 7800 3000
+Wire Wire Line
+	7800 3000 7800 3350
+Wire Wire Line
+	7800 3350 7350 3350
+Wire Wire Line
+	7350 3200 9150 3200
+Wire Wire Line
+	4600 4100 6350 4100
+Wire Wire Line
+	4600 4100 4600 4400
+Wire Wire Line
+	9150 3200 9150 3000
+$Comp
+L GND #PWR03
+U 1 1 683D4892
+P 4600 4400
+F 0 "#PWR03" H 4600 4150 50  0001 C CNN
+F 1 "GND" H 4600 4250 50  0000 C CNN
+F 2 "" H 4600 4400 50  0001 C CNN
+F 3 "" H 4600 4400 50  0001 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC v3
+U 1 1 683D48F7
+P 9150 2550
+F 0 "v3" H 8950 2650 60  0000 C CNN
+F 1 "5" H 8950 2500 60  0000 C CNN
+F 2 "R1" H 8850 2550 60  0000 C CNN
+F 3 "" H 9150 2550 60  0000 C CNN
+	1    9150 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 683D495C
+P 9600 2150
+F 0 "#PWR04" H 9600 1900 50  0001 C CNN
+F 1 "GND" H 9600 2000 50  0000 C CNN
+F 2 "" H 9600 2150 50  0001 C CNN
+F 3 "" H 9600 2150 50  0001 C CNN
+	1    9600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2150 9600 2100
+Wire Wire Line
+	9600 2100 9150 2100
+NoConn ~ 7350 3500
+NoConn ~ 7350 3950
+NoConn ~ 7350 4100
+NoConn ~ 7350 4250
+NoConn ~ 7350 4400
+NoConn ~ 7350 4550
+NoConn ~ 7350 4700
+NoConn ~ 7350 4850
+NoConn ~ 6350 4850
+NoConn ~ 6350 4700
+NoConn ~ 6350 4550
+NoConn ~ 6350 4400
+NoConn ~ 6350 4250
+NoConn ~ 6350 3950
+NoConn ~ 6350 3800
+NoConn ~ 6350 3650
+NoConn ~ 6350 3500
+NoConn ~ 6350 3350
+NoConn ~ 6350 3200
+$EndSCHEMATC

@@ -1,0 +1,28 @@
+* C:\Users\mamat\eSim-Workspace\CRC_Generator\CRC_Generator.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/10/25 21:22:33
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v2  clk GND pulse		
+v3  rst GND pulse		
+v1  data_in GND pulse		
+v4  Net-_X1-Pad14_ GND 5		
+U1  clk plot_v1		
+U2  rst plot_v1		
+U3  data_in plot_v1		
+U7  q7 plot_v1		
+U9  q6 plot_v1		
+U11  q5 plot_v1		
+U13  q4 plot_v1		
+U8  q0 plot_v1		
+U10  q1 plot_v1		
+U12  q2 plot_v1		
+U14  q3 plot_v1		
+U6  Net-_U6-Pad1_ Net-_U6-Pad2_ Net-_U6-Pad3_ Net-_U6-Pad4_ Net-_U6-Pad5_ Net-_U6-Pad6_ Net-_U6-Pad7_ Net-_U6-Pad8_ q7 q6 q5 q4 q3 q2 q1 q0 dac_bridge_8		
+U4  clk rst data_in Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ adc_bridge_3		
+X1  Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ Net-_U6-Pad8_ Net-_U6-Pad7_ Net-_U6-Pad6_ GND Net-_U6-Pad5_ Net-_U6-Pad4_ Net-_U6-Pad3_ Net-_U6-Pad2_ Net-_U6-Pad1_ ? Net-_X1-Pad14_ AN1186_CRC_Gen		
+
+.end

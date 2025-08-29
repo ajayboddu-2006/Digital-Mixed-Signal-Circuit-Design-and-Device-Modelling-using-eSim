@@ -1,0 +1,61 @@
+* C:\Users\mamat\eSim-Workspace\Serializer_DS90CR285\Serializer_DS90CR285.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/06/25 11:06:54
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ Net-_U1-Pad24_ Net-_U1-Pad25_ Net-_U1-Pad26_ Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ Net-_U1-Pad32_ Net-_U1-Pad33_ Net-_U1-Pad34_ Net-_U1-Pad35_ Net-_U1-Pad36_ Net-_U1-Pad37_ Net-_U1-Pad38_ Net-_U1-Pad39_ Net-_U1-Pad40_ Net-_U1-Pad41_ ds90cr285		
+v15  Net-_U4-Pad4_ GND DC		
+v16  Net-_U4-Pad5_ GND DC		
+v17  Net-_U4-Pad6_ GND DC		
+v18  Net-_U4-Pad7_ GND DC		
+v19  Net-_U5-Pad1_ GND DC		
+v20  Net-_U5-Pad2_ GND DC		
+v21  Net-_U5-Pad3_ GND DC		
+v22  Net-_U5-Pad4_ GND DC		
+v23  Net-_U5-Pad5_ GND DC		
+v24  Net-_U5-Pad6_ GND DC		
+v13  Net-_U5-Pad7_ GND DC		
+v14  ? GND DC		
+v3  Net-_U6-Pad1_ GND DC		
+v4  Net-_U6-Pad2_ GND DC		
+v5  Net-_U6-Pad3_ GND DC		
+v6  Net-_U6-Pad4_ GND DC		
+v7  Net-_U6-Pad5_ GND DC		
+v8  Net-_U6-Pad6_ GND DC		
+v9  Net-_U6-Pad7_ GND DC		
+v10  Net-_U6-Pad8_ GND DC		
+v11  Net-_U7-Pad1_ GND DC		
+v12  Net-_U7-Pad2_ GND DC		
+v1  Net-_U7-Pad3_ GND DC		
+v2  Net-_U7-Pad4_ GND DC		
+v28  Net-_U7-Pad6_ GND DC		
+v27  Net-_U7-Pad5_ GND DC		
+v25  reset GND pulse		
+v26  clk_in_7x GND pulse		
+v31  clk_in GND pulse		
+U5  Net-_U5-Pad1_ Net-_U5-Pad2_ Net-_U5-Pad3_ Net-_U5-Pad4_ Net-_U5-Pad5_ Net-_U5-Pad6_ Net-_U5-Pad7_ ? Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ adc_bridge_8		
+U6  Net-_U6-Pad1_ Net-_U6-Pad2_ Net-_U6-Pad3_ Net-_U6-Pad4_ Net-_U6-Pad5_ Net-_U6-Pad6_ Net-_U6-Pad7_ Net-_U6-Pad8_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ adc_bridge_8		
+U7  Net-_U7-Pad1_ Net-_U7-Pad2_ Net-_U7-Pad3_ Net-_U7-Pad4_ Net-_U7-Pad5_ Net-_U7-Pad6_ Net-_U7-Pad7_ Net-_U7-Pad8_ Net-_U1-Pad24_ Net-_U1-Pad25_ Net-_U1-Pad26_ Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ adc_bridge_8		
+U4  clk_in clk_in_7x reset Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ Net-_U4-Pad7_ Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ adc_bridge_7		
+U10  Net-_U1-Pad32_ Net-_U1-Pad33_ Net-_U1-Pad34_ Net-_U1-Pad35_ Net-_U1-Pad36_ Net-_U1-Pad37_ Net-_U1-Pad38_ Net-_U1-Pad39_ lvds_data_p3 lvds_data_p2 lvds_data_p1 lvds_data_p0 lvds_data_n3 lvds_data_n2 lvds_data_n1 lvds_data_n0 dac_bridge_8		
+U9  Net-_U1-Pad40_ Net-_U1-Pad41_ clk_out_p0 clk_out_n0 dac_bridge_2		
+v30  Net-_U7-Pad8_ GND DC		
+v29  Net-_U7-Pad7_ GND DC		
+U2  reset plot_v1		
+U3  clk_in_7x plot_v1		
+U8  clk_in plot_v1		
+U18  lvds_data_p3 plot_v1		
+U11  lvds_data_p2 plot_v1		
+U12  lvds_data_p1 plot_v1		
+U13  lvds_data_p0 plot_v1		
+U15  lvds_data_n3 plot_v1		
+U16  lvds_data_n2 plot_v1		
+U14  lvds_data_n1 plot_v1		
+U17  lvds_data_n0 plot_v1		
+U19  clk_out_p0 plot_v1		
+U20  clk_out_n0 plot_v1		
+
+.end

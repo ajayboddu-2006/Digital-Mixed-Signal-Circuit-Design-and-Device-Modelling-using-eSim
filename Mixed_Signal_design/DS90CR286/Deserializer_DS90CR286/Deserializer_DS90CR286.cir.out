@@ -1,0 +1,81 @@
+* c:\users\mamat\esim-workspace\deserializer_ds90cr286\deserializer_ds90cr286.cir
+
+* u7  net-_u7-pad1_ net-_u7-pad2_ ? net-_u7-pad4_ net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ ? ? ? ? net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ net-_u10-pad7_ net-_u10-pad8_ net-_u11-pad1_ net-_u11-pad2_ net-_u11-pad3_ net-_u11-pad4_ net-_u11-pad5_ net-_u11-pad6_ net-_u11-pad7_ net-_u11-pad8_ net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ net-_u13-pad5_ ds90cr286
+* u10  net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ net-_u10-pad7_ net-_u10-pad8_ out27 out26 out25 out24 out23 out22 out21 out20 dac_bridge_8
+* u11  net-_u11-pad1_ net-_u11-pad2_ net-_u11-pad3_ net-_u11-pad4_ net-_u11-pad5_ net-_u11-pad6_ net-_u11-pad7_ net-_u11-pad8_ out19 out18 out17 out16 out15 out14 out13 out12 dac_bridge_8
+* u12  net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ out11 out10 out9 out8 out7 out6 out5 out4 dac_bridge_8
+* u13  net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ net-_u13-pad5_ out3 out2 out1 out0 clk_out dac_bridge_5
+* u16  out23 plot_v1
+* u22  out22 plot_v1
+* u31  out21 plot_v1
+* u38  out20 plot_v1
+* u17  out19 plot_v1
+* u24  out18 plot_v1
+* u30  out17 plot_v1
+* u37  out16 plot_v1
+* u18  out15 plot_v1
+* u25  out14 plot_v1
+* u34  out13 plot_v1
+* u41  out12 plot_v1
+* u19  out11 plot_v1
+* u27  out10 plot_v1
+* u32  out9 plot_v1
+* u39  out8 plot_v1
+* u20  out7 plot_v1
+* u26  out6 plot_v1
+* u35  out5 plot_v1
+* u42  out4 plot_v1
+* u21  out2 plot_v1
+* u28  out1 plot_v1
+* u33  out0 plot_v1
+* u40  clk_out plot_v1
+* u14  out3 plot_v1
+* u15  out27 plot_v1
+* u23  out26 plot_v1
+* u29  out25 plot_v1
+* u36  out24 plot_v1
+v2  clk_in gnd pulse(5 0 0.01n 0.01n 0.01n 70u 140u)
+v4  clk_lvds_p gnd pulse(0 5 0.01n 0.01n 0.01n 10u 20u)
+v6  rst gnd pulse(0 5 0.01n 0.01n 0.01n 5u 1m)
+v1  d3 gnd pulse(0 5 0.01n 0.01n 0.01n 15u 25u)
+v3  d2 gnd pulse(0 5 0.01n 0.01n 0.01n 25u 35u)
+v5  d1 gnd pulse(0 5 0.01n 0.01n 0.01n 45u 55u)
+v7  d0 gnd pulse(0 5 0.01n 0.01n 0.01n 5u 25u)
+* u9  clk_in clk_lvds_p rst d3 d2 d1 d0 net-_u7-pad1_ net-_u7-pad2_ net-_u7-pad4_ net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ adc_bridge_7
+* u2  clk_in plot_v1
+* u1  d3 plot_v1
+* u3  d2 plot_v1
+* u5  d1 plot_v1
+* u8  d0 plot_v1
+* u4  clk_lvds_p plot_v1
+* u6  rst plot_v1
+a1 [net-_u7-pad1_ ] [net-_u7-pad2_ ] [? ] [net-_u7-pad4_ ] [net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ ] [? ? ? ? ] [net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ net-_u10-pad7_ net-_u10-pad8_ net-_u11-pad1_ net-_u11-pad2_ net-_u11-pad3_ net-_u11-pad4_ net-_u11-pad5_ net-_u11-pad6_ net-_u11-pad7_ net-_u11-pad8_ net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ ] [net-_u13-pad5_ ] u7
+a2 [net-_u10-pad1_ net-_u10-pad2_ net-_u10-pad3_ net-_u10-pad4_ net-_u10-pad5_ net-_u10-pad6_ net-_u10-pad7_ net-_u10-pad8_ ] [out27 out26 out25 out24 out23 out22 out21 out20 ] u10
+a3 [net-_u11-pad1_ net-_u11-pad2_ net-_u11-pad3_ net-_u11-pad4_ net-_u11-pad5_ net-_u11-pad6_ net-_u11-pad7_ net-_u11-pad8_ ] [out19 out18 out17 out16 out15 out14 out13 out12 ] u11
+a4 [net-_u12-pad1_ net-_u12-pad2_ net-_u12-pad3_ net-_u12-pad4_ net-_u12-pad5_ net-_u12-pad6_ net-_u12-pad7_ net-_u12-pad8_ ] [out11 out10 out9 out8 out7 out6 out5 out4 ] u12
+a5 [net-_u13-pad1_ net-_u13-pad2_ net-_u13-pad3_ net-_u13-pad4_ net-_u13-pad5_ ] [out3 out2 out1 out0 clk_out ] u13
+a6 [clk_in clk_lvds_p rst d3 d2 d1 d0 ] [net-_u7-pad1_ net-_u7-pad2_ net-_u7-pad4_ net-_u7-pad5_ net-_u7-pad6_ net-_u7-pad7_ net-_u7-pad8_ ] u9
+* Schematic Name:                             ds90cr286, NgSpice Name: ds90cr286
+.model u7 ds90cr286(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u10 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u11 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u12 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_5, NgSpice Name: dac_bridge
+.model u13 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_7, NgSpice Name: adc_bridge
+.model u9 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+.tran 5e-06 0.25e-03 0e-06
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot v(out0) v(out1)+6 v(out2)+12 v(out3)+18 v(out4)+24 v(out5)+30 v(out6)+36 v(out7)+42 v(out8)+48 v(out9)+54 v(out10)+60 v(out11)+66 v(out12)+72 v(out13)+78 v(out14)+84 v(out15)+90 v(out16)+96 v(out17)+102 v(out18)+108 v(out19)+114 v(out20)+120 v(out21)+126 v(out22)+132 v(out23)+138 v(out24)+144 v(out25)+150 v(out26)+156 v(out27)+162
+plot v(d0) v(d1)+6 v(d2)+12 v(d3)+18 v(clk_out)+24 v(clk_lvds_p)+30 v(clk_in)+36 v(rst)+42
+.endc
+.end

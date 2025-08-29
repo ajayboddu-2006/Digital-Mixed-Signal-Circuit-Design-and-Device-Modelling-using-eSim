@@ -1,0 +1,21 @@
+* c:\users\mamat\esim-workspace\bjt_cb_config\bjt_cb_config.cir
+
+.include 2N3055.lib
+v1 vcb gnd  dc 12
+r1  vcb net-_q1-pad1_ 1k
+r2  net-_q1-pad3_ net-_r2-pad2_ 1k
+* u_ic1  net-_r2-pad2_ ie plot_i2
+q1 net-_q1-pad1_ gnd net-_q1-pad3_ 2N3055
+v2 gnd ie  dc 12
+v_u_ic1 net-_r2-pad2_ ie 0
+.dc v2 -1e-00 10e-00 0.02e-00 v1 0e-00 5e-00 1e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+set xbrushwidth = 2
+plot i(v_u_ic1)
+.endc
+.end

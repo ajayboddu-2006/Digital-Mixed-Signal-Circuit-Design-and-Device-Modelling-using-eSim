@@ -1,0 +1,15 @@
+* C:\Users\mamat\eSim-Workspace\PMEG2005EB_half_wave_rectifier\PMEG2005EB_half_wave_rectifier.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/24/25 15:40:32
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  in GND sine		
+D1  in out eSim_Diode		
+R1  out GND 1k		
+U2  out plot_v1		
+U1  in plot_v1		
+
+.end

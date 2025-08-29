@@ -1,0 +1,187 @@
+EESchema Schematic File Version 2
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:power
+LIBS:eSim_Plot
+LIBS:transistors
+LIBS:conn
+LIBS:eSim_User
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:eSim_Analog
+LIBS:eSim_Devices
+LIBS:eSim_Digital
+LIBS:eSim_Hybrid
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Power
+LIBS:eSim_Sources
+LIBS:eSim_Subckt
+LIBS:eSim_Nghdl
+LIBS:eSim_Ngveri
+LIBS:eSim_SKY130
+LIBS:eSim_SKY130_Subckts
+LIBS:BJT_CE_config_input_char_ZTX1048A-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR1
+U 1 1 56A86D80
+P 5450 4300
+F 0 "#PWR1" H 5450 4050 50  0001 C CNN
+F 1 "GND" H 5450 4150 50  0000 C CNN
+F 2 "" H 5450 4300 50  0000 C CNN
+F 3 "" H 5450 4300 50  0000 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2950 0    60   Input ~ 0
+ib
+Text GLabel 6550 2350 2    60   Input ~ 0
+vce
+Wire Wire Line
+	4150 2700 4150 3350
+Wire Wire Line
+	5450 3400 5450 4300
+Wire Wire Line
+	4150 4250 6600 4250
+Connection ~ 5450 4250
+Wire Wire Line
+	6600 2450 6600 2600
+Wire Wire Line
+	6600 4250 6600 3500
+Wire Wire Line
+	6550 2350 6500 2350
+Wire Wire Line
+	6500 2350 6500 2450
+Connection ~ 6500 2450
+Wire Wire Line
+	3850 2950 4000 2950
+Wire Wire Line
+	4000 2950 4000 3050
+Wire Wire Line
+	5450 2450 6600 2450
+Wire Wire Line
+	5450 2550 5450 2450
+Wire Wire Line
+	5450 2850 5450 3000
+Wire Wire Line
+	5150 3200 4900 3200
+$Comp
+L plot_i2 U_ic1
+U 1 1 56D83610
+P 4450 2450
+F 0 "U_ic1" H 4450 2850 60  0000 C CNN
+F 1 "plot_i2" H 4450 2550 60  0000 C CNN
+F 2 "" H 4450 2450 60  0000 C CNN
+F 3 "" H 4450 2450 60  0000 C CNN
+	1    4450 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L eSim_NPN Q1
+U 1 1 5D5CEE49
+P 5350 3200
+F 0 "Q1" H 5250 3250 50  0000 R CNN
+F 1 "eSim_NPN" H 5300 3350 50  0000 R CNN
+F 2 "" H 5550 3300 29  0000 C CNN
+F 3 "" H 5350 3200 60  0000 C CNN
+	1    5350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 5D66519A
+P 5600 4100
+F 0 "#FLG1" H 5600 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 4250 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4100 5600 4250
+Connection ~ 5600 4250
+$Comp
+L DC v2
+U 1 1 684BBC91
+P 4150 3800
+F 0 "v2" H 3950 3900 60  0000 C CNN
+F 1 "DC" H 3950 3750 60  0000 C CNN
+F 2 "R1" H 3850 3800 60  0000 C CNN
+F 3 "" H 4150 3800 60  0000 C CNN
+	1    4150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3050 4150 3050
+Connection ~ 4150 3050
+$Comp
+L resistor R?
+U 1 1 684BF692
+P 5400 2650
+F 0 "R?" H 5450 2780 50  0000 C CNN
+F 1 "1k" H 5450 2600 50  0000 C CNN
+F 2 "" H 5450 2630 30  0000 C CNN
+F 3 "" V 5450 2700 30  0000 C CNN
+	1    5400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L resistor R?
+U 1 1 684BF6DF
+P 4850 3000
+F 0 "R?" H 4900 3130 50  0000 C CNN
+F 1 "1k" H 4900 2950 50  0000 C CNN
+F 2 "" H 4900 2980 30  0000 C CNN
+F 3 "" V 4900 3050 30  0000 C CNN
+	1    4850 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2900 4900 2700
+Wire Wire Line
+	4900 2700 4750 2700
+$Comp
+L DC v?
+U 1 1 684BF757
+P 6600 3050
+F 0 "v?" H 6400 3150 60  0000 C CNN
+F 1 "DC" H 6400 3000 60  0000 C CNN
+F 2 "R1" H 6300 3050 60  0000 C CNN
+F 3 "" H 6600 3050 60  0000 C CNN
+	1    6600 3050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

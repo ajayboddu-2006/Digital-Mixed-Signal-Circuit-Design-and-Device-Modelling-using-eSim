@@ -4,10 +4,17 @@
 This repository is part of the **FOSSEE (Free/Libre and Open Source Software for Education)** initiative at **IIT Bombay**.  
 The FOSSEE project promotes the use of **open-source software in education and research** by developing resources, supporting open-source tools, and encouraging student contributions. It provides alternatives to proprietary tools, making advanced technology more accessible.  
 
+<div align="center">
+  <img src="FOSSEE_logo.png" alt="FOSSEE" width="400"/>
+</div>
  
 ## About eSim  
 **eSim** is an open-source **Electronic Design Automation (EDA) tool** developed by **FOSSEE, IIT Bombay**.  
 The primary objective of eSim is to provide a **completely free and open-source alternative** to commercial circuit design and simulation software, thereby reducing dependency on expensive proprietary tools in academia and research.  
+
+<div align="center">
+  <img src="eSim_Logo.png" alt="eSim" width="400"/>
+</div>
 
 eSim integrates multiple open-source tools to provide a comprehensive design and simulation environment:  
 - **KiCad** → schematic capture and PCB design  

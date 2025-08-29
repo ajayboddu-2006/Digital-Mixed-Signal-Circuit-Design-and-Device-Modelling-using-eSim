@@ -4,7 +4,6 @@
 This repository is part of the **FOSSEE (Free/Libre and Open Source Software for Education)** initiative at **IIT Bombay**.  
 The FOSSEE project promotes the use of **open-source software in education and research** by developing resources, supporting open-source tools, and encouraging student contributions. It provides alternatives to proprietary tools, making advanced technology more accessible.  
 
----
  
 ## About eSim  
 **eSim** is an open-source **Electronic Design Automation (EDA) tool** developed by **FOSSEE, IIT Bombay**.  
@@ -31,11 +30,10 @@ One of the key features of eSim is its **Subcircuit feature**, which allows comp
 - **Cross-Platform Support**: Compatible with Linux and Windows.  
 - **Active Community and Documentation**: Backed by FOSSEE’s tutorials, documentation, and community support.  
 
----
 
 ## Internship Work  
 
-### 🔹 Digital Subcircuit Design?  
+### 🔹 Digital Subcircuit Design  
 Subcircuit design focuses on creating **fundamental digital building blocks**. These smaller modules can be combined to form larger digital systems. As part of the internship, **IC subcircuits** were designed and validated in eSim by following a systematic  as follows:  
 
 - **Datasheet Analysis**: Studied datasheets from multiple manufacturers to extract internal circuit diagrams, truth tables, pin configurations, and functional block representations.  
@@ -45,7 +43,7 @@ Subcircuit design focuses on creating **fundamental digital building blocks**. T
 - **Simulation and Validation**: Simulated test circuits using **NgSpice** and compared the results against reference plots and functional expectations from datasheets.  
  
 
-### 🔹 What is Mixed-Signal Circuit Design & Simulation?  
+### 🔹 Mixed-Signal Circuit Design & Simulation
 Mixed-signal circuits combine both **digital and analog components** (e.g., ADCs, DACs, and interface circuits). This part involves using eSim’s NGVeri feature for mixed-signal simulation by integrating analog circuits with digital HDL designs. NGVeri allows simultaneous simulation of analog (NgSpice) and digital (Verilator) domains. The approach for Mixed Signal Simulation using eSim is as follows:
 
 - **Verilog Code Development**: The digital portion of the circuit was described using **Verilog, SystemVerilog, or TL-Verilog**, depending on design requirements.  
@@ -57,15 +55,13 @@ Mixed-signal circuits combine both **digital and analog components** (e.g., ADCs
 
 
 
-### 🔹 What is Device Modeling?  
+### 🔹 Device Modeling
 Device modeling involves creating **mathematical and simulation models** for semiconductor devices such as **diodes and MOSFETs**. These models are used to study device-level behavior (I–V curves, Transfer characteristics etc.) and integrate them into larger circuits. Using **Model Editor in eSim**, custom models can be created and tested for accuracy against theoretical characteristics.
 
 - **Parameter Extraction**: Critical parameters such as **saturation current, ideality factor, junction capacitances, and breakdown voltage** were extracted from datasheets or calculated using theoretical equations.  
 - **Model File Creation**: Extracted parameters were entered into eSim’s **Model Editor**, which generated corresponding **XML model files** for integration.  
 - **Test Circuit Design**: Standard test circuits were designed to evaluate the behavior of the newly modeled devices under typical operating conditions.  
 - **Simulation and Validation**: The test circuits were simulated using **NgSpice**, and the results were compared against datasheet characteristics to verify accuracy and consistency.  
-
----
 
 ## Circuits Implemented  
 Following circuits and models were implemented as part of this internship:  
@@ -92,8 +88,6 @@ Following circuits and models were implemented as part of this internship:
   - LS5907 - Low Leakage Low Drift Monolithic N-Channel JFET
  
 
----
-
-## Tools & Technologies  
-- **HDL**: Verilog  
-- **Simulation Tools**: eSim  
+### Conclusion
+This internship provided hands-on experience in digital, analog, and mixed-signal circuit design and simulation using eSim. By working on subcircuit development, mixed-signal integration, and device modeling, a strong understanding of both circuit-level design and system-level verification was gained.
+Overall, this internship contributed towards enhancing the eSim open-source ecosystem by adding reusable circuits, models, and methodologies that can be leveraged by students, educators, and researchers. It strengthened skills in Verilog, circuit simulation, and device modeling, while aligning with FOSSEE’s vision of making advanced EDA tools accessible to all through open-source platforms.

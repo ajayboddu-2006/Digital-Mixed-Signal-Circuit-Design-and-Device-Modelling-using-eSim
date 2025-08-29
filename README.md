@@ -1,12 +1,12 @@
 # Digital & Mixed-Signal Circuit Design with Verilog and Device Modeling  
 
-## 📌 About FOSSEE  
+## About FOSSEE  
 This repository is part of the **FOSSEE (Free/Libre and Open Source Software for Education)** initiative at **IIT Bombay**.  
 The FOSSEE project promotes the use of **open-source software in education and research** by developing resources, supporting open-source tools, and encouraging student contributions. It provides alternatives to proprietary tools, making advanced technology more accessible.  
 
 ---
  
-## 🖥 About eSim  
+## About eSim  
 **eSim** is an open-source **Electronic Design Automation (EDA) tool** developed by **FOSSEE, IIT Bombay**.  
 The primary objective of eSim is to provide a **completely free and open-source alternative** to commercial circuit design and simulation software, thereby reducing dependency on expensive proprietary tools in academia and research.  
 
@@ -19,7 +19,7 @@ eSim integrates multiple open-source tools to provide a comprehensive design and
 
 One of the key features of eSim is its **Subcircuit feature**, which allows complex designs to be modularized into reusable blocks, simplifying the design of large systems. Additionally, eSim supports **device modeling**, enabling users to define and simulate custom semiconductor devices using real-world parameters. As part of its continuous development, eSim also supports the **SkyWater SKY130 PDK**, enabling simulations using an open-source **130nm Process Design Kit**, widely used in analog, mixed-signal, and digital IC design research. By supporting a **fully open-source toolchain**, eSim empowers students, educators, and researchers to gain hands-on experience with industry-relevant EDA tools and actively contribute to the **open-source hardware ecosystem**.  
 
-### 🔧 Key Features of eSim  
+### Key Features of eSim  
 - **Open-source and Free**: Fully open-source with no licensing costs, ideal for academia and research.  
 - **Integrated Toolchain**: Combines tools such as **KiCad** (schematic capture & PCB design), **NgSpice** (analog simulation), **GHDL** (digital simulation), and **Makerchip** (advanced digital design).  
 - **Mixed-Signal Simulation**: Supports both analog and digital simulation for efficient mixed-signal circuit design.  
@@ -33,7 +33,7 @@ One of the key features of eSim is its **Subcircuit feature**, which allows comp
 
 ---
 
-## 🏗 Internship Work  
+## Internship Work  
 
 ### 🔹 Digital Subcircuit Design?  
 Subcircuit design focuses on creating **fundamental digital building blocks**. These smaller modules can be combined to form larger digital systems. As part of the internship, **IC subcircuits** were designed and validated in eSim by following a systematic  as follows:  
@@ -67,7 +67,7 @@ Device modeling involves creating **mathematical and simulation models** for sem
 
 ---
 
-## ✅ Circuits Implemented  
+## Circuits Implemented  
 Following circuits and models were implemented as part of this internship:  
 
 - **Digital SubCircuits**  
@@ -94,6 +94,6 @@ Following circuits and models were implemented as part of this internship:
 
 ---
 
-## ⚙️ Tools & Technologies  
+## Tools & Technologies  
 - **HDL**: Verilog  
 - **Simulation Tools**: eSim  

@@ -74,32 +74,26 @@ Following circuits and models were implemented as part of this internship:
   - SN74LVC4245A - Octal Bus Transceiver and 3.3V to 5V Level Shifter with 3-state outputs  
   - SN74S64 - 4-2-3-2 Input AOI Gates
   - SN74100 - 8-Bit Bistable Latches
-  - Flip-Flops  
-  - Sequential Circuits  
+  - SN74120 - Dual Pulse Synchronizers/Drivers 
+  - CD4048BMS -  CMOS Multifunction Expandable 8 Input Gate
+  - CBTL02043B -  2 differential channel, 2:1 multiplexer/demultiplexer switch
+  - AN1186 - Cyclic Redundancy Check Generator Unit for 1-wire Protocol
 
 - **Mixed-Signal Circuits**  
-  - ADC (Analog-to-Digital Converter)  
-  - DAC (Digital-to-Analog Converter)  
-  - Sample-and-Hold Circuit  
+  - IDT72V201 - 256 x 9 CMOS Sync FIFO  
+  - DS90CR285 - Rising Edge Data Strobe LVDS 28-Bit Channel Link - Serializer 
+  - DS90CR286 - Rising Edge Data Strobe LVDS 28-Bit Channel Link - Deserializer 
 
 - **Device Modeling**  
-  - MOSFET Model  
-  - Diode Model  
-  - I–V Curve Simulation  
-  - Transconductance Analysis  
+  - ZTX1048A - NPN Silicon Planar medium Power High Gain Transistor
+  - 2N3055 - NPN Silicon Power Transistor  
+  - 2N5401 - PNP Silicon Epitaxial Planar Transistors
+  - PMEG2005EB - Low VF MEGA Schottky barrier diode
+  - LS5907 - Low Leakage Low Drift Monolithic N-Channel JFET
+ 
 
 ---
 
 ## ⚙️ Tools & Technologies  
-- **HDL**: Verilog, Verilog-AMS  
-- **Simulation Tools**: eSim, NgSpice, ModelSim  
-- **Scripting**: Python, MATLAB  
-- **Version Control**: Git  
-
----
-
-## 👤 Author  
-**Your Name**  
-- Email: your.email@example.com  
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- GitHub: [github.com/yourusername](https://github.com/yourusername)  
+- **HDL**: Verilog  
+- **Simulation Tools**: eSim  
